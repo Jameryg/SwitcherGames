@@ -1,0 +1,22 @@
+{
+  "name": "pixi",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack --env production",
+    "check": "tsc src/index.ts -noEmit"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.23.0",
+    "babel-loader": "^9.1.3",
+    "copy-webpack-plugin": "^11.0.0",
+    "html-webpack-plugin": "^5.5.3",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "pixi.js": "^7.3.1"
+  }
+}
